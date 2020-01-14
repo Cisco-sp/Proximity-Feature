@@ -1,0 +1,30 @@
+<Extensions>
+  <Version>1.6</Version>
+  <Panel>
+    <PanelId>panel_1</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Proximity</Icon>
+    <Order>1</Order>
+    <Color>#FF3D67</Color>
+    <Name>Proximity</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Ultrasound</Name>
+      <Row>
+        <Name>Volume</Name>
+        <Widget>
+          <WidgetId>volume_text</WidgetId>
+          <Name>?</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>volume_slider</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
